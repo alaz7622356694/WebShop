@@ -6,9 +6,23 @@ const App = () => {
     return (
         <div>
           <Header/>
-          <Container>
+          <Container fluid className="p-3 bg-primary">
+              <h2>FC Market</h2>
+              <h2>FC Market</h2>
+              <h2>FC Market</h2>
+              <h2>FC Market</h2>
+              <h2>FC Market</h2>
+              <h2>FC Market</h2>
+              <h2>FC Market</h2>
+              <h2>FC Market</h2>
+              <h2>FC Market</h2>
+              <h2>FC Market</h2>
+              <h2>FC Market</h2>
+              <h2>FC Market</h2>
+              <h2>FC Market</h2>
               <h2>FC Market</h2>
           </Container>
+          
           <Footer/>
         </div>
     )
