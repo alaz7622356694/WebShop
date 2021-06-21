@@ -16,20 +16,10 @@ const Header = () => {
         className="d-inline-block align-bottom"
       /> {' '} FC Market</Navbar.Brand>
       <Nav >
-      <img
-        src="https://img.icons8.com/cotton/64/000000/shopping-cart.png"
-        width="40px"
-        height="40px"
-        className="d-inline-block align-top"
-      />
-          <Nav.Link  href="/cart">Shopping Basket</Nav.Link>
-          <img
-        src="https://img.icons8.com/ultraviolet/40/000000/guest-male.png"
-        width="40px"
-        height="40px"
-        className="d-inline-block align-top"
-      />
-          <Nav.Link href="/account">Account</Nav.Link>
+     
+          <Nav.Link  href="/cart"><i className='fa fa-shopping-cart'></i></Nav.Link>
+         
+          <Nav.Link href="/account"><i className='fa fa-user'></i></Nav.Link>
       </Nav>
 
       
