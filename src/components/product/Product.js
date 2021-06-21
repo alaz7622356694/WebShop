@@ -7,8 +7,26 @@ const Product = (props) => {
 <a href={`/product/${props._id}`}>
 
     <Card.Img src={props.image} variant="top" />
+
+</a>
+<Card.Body>
+
+<a href={`/product/${props._id}`}>
+
+<Card.Title as='h3'>{props.title}</Card.Title>
+
 </a>
 
+<Card.Text as ='h4' >{props.price} $</Card.Text>
+
+
+    <Card.Text>
+      {props.description}
+    </Card.Text>
+
+
+
+ </Card.Body>
 
        </Card>
     )

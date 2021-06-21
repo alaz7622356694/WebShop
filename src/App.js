@@ -8,7 +8,7 @@ const App = () => {
         <div>
           <Header/>
           
-          <Container fluid className="bg-primary ">
+          <Container fluid className="bg-primary h-100">
             <Home/>
           </Container> 
           <Footer/>
