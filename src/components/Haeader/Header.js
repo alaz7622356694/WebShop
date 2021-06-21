@@ -13,13 +13,14 @@ const Header = () => {
        src="https://img.icons8.com/officel/80/000000/shop.png"
         width="40px"
         height="40px"
-        className="d-inline-block align-bottom"
+        className="d-inline-block align-bottom mr-2"
       /> {' '} FC Market</Navbar.Brand>
-      <Nav >
+      <Nav className='d-flex flex-row ' >
      
-          <Nav.Link  href="/cart"><i className='fa fa-shopping-cart'></i></Nav.Link>
+          <Nav.Link  href="/cart"><i className='fa fa-shopping-cart '></i></Nav.Link>
          
-          <Nav.Link href="/account"><i className='fa fa-user'></i></Nav.Link>
+          <Nav.Link href="/account"><i className='fa fa-user ml-3'></i></Nav.Link>
+          
       </Nav>
 
       

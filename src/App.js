@@ -2,27 +2,15 @@ import React from 'react'
 import Header from './components/Haeader/Header'
 import Footer from './components/Footer/Footer'
 import {Container} from 'react-bootstrap'
+import Home from './pages/Home'
 const App = () => {
     return (
         <div>
           <Header/>
-          <Container fluid className="p-3 bg-primary">
-              <h2>FC Market</h2>
-              <h2>FC Market</h2>
-              <h2>FC Market</h2>
-              <h2>FC Market</h2>
-              <h2>FC Market</h2>
-              <h2>FC Market</h2>
-              <h2>FC Market</h2>
-              <h2>FC Market</h2>
-              <h2>FC Market</h2>
-              <h2>FC Market</h2>
-              <h2>FC Market</h2>
-              <h2>FC Market</h2>
-              <h2>FC Market</h2>
-              <h2>FC Market</h2>
-          </Container>
           
+          <Container fluid className="bg-primary ">
+            <Home/>
+          </Container> 
           <Footer/>
         </div>
     )
