@@ -9,7 +9,7 @@ const Header = () => {
   <Navbar sticky ="top" expand="xl" variant="dark" bg="dark" >
   <Container fluid>
    
-  <Navbar.Brand href="/">     <img
+  <Navbar.Brand href="/">     <img alt="logo"
        src="https://img.icons8.com/officel/80/000000/shop.png"
         width="40px"
         height="40px"
