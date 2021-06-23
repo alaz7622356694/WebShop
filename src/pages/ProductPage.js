@@ -3,13 +3,17 @@ import { Link } from 'react-router-dom'
 import {Row , Col , Image , ListGroup , Button} from 'react-bootstrap' 
 import products from '../products'
 
-const ProductPage = ({match}) => {
+const ProductPage = ({history , match}) => {
   const product= products.find((item)=>{
 return item._id=== match.params.id
    })
    
-   
-    return (<div>
+   const addToCartHandler =()=>{
+history.push(`/cart/${match.params.id}`)
+
+   }
+    return (
+<div>
 <Link to="/" className='btn btn-light my-3'> Return to main page</Link>
 <Row>
 <Col md={3}>
@@ -24,7 +28,7 @@ return item._id=== match.params.id
             {product.description}
         </ListGroup.Item>
         <ListGroup.Item>
-           <Button className="btn-block " type='button'>Add to the basket</Button>
+           <Button onClick={addToCartHandler} className="btn-block " type='button'>Add to the basket</Button>
         </ListGroup.Item>
         
     </ListGroup>

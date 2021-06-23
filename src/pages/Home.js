@@ -1,8 +1,10 @@
 import React from 'react'
-import products from '../products'
 import {Row ,Col} from 'react-bootstrap'
 import Product from '../components/product/Product'
+import products from '../products'
+
 const Home = () => {
+
     return (
         <div>
             <h2 className='text-center' >Products</h2><hr/>
