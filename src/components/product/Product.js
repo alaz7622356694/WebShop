@@ -20,9 +20,6 @@ const Product = (props) => {
 <Card.Text as ='h4' >{props.price}</Card.Text>
 
 
-    <Card.Text>
-      {props.description}
-    </Card.Text>
 
 
 
