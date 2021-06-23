@@ -4,20 +4,20 @@ import { Link } from 'react-router-dom'
 const Product = (props) => {
     return (
        <Card className="my-3 p-3 rounded">
-<Link to={`/product/${props._id}`}>
+<Link to={`/product/${props.id}`}>
 
     <Card.Img src={props.image} variant="top" />
 
 </Link>
 <Card.Body>
 
-<Link to={`/product/${props._id}`}>
+<Link to={`/product/${props.id}`}>
 
 <Card.Title as='h3'>{props.title}</Card.Title>
 
 </Link>
 
-<Card.Text as ='h4' >{props.price} $</Card.Text>
+<Card.Text as ='h4' >{props.price}</Card.Text>
 
 
     <Card.Text>

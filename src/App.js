@@ -5,7 +5,7 @@ import {Container} from 'react-bootstrap'
 import { BrowserRouter as Router , Route } from 'react-router-dom'
 
 import Home from './pages/Home'
-import Product from './pages/Product'
+import ProductPage from './pages/ProductPage'
 
 const App = () => {
     return (
@@ -16,7 +16,7 @@ const App = () => {
           <Container fluid className="bg-primary h-100">
 
             <Route path='/' component={Home} exact/>
-            <Route path='/product/:id' component={Product}/>
+            <Route path='/product/:id' component={ProductPage} />
 
           </Container> 
           <Footer/>
